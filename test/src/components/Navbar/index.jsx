@@ -1,12 +1,12 @@
-import logo from '../../assets/116920_clipboard_512x512.png'
+import logo from '../../assets/free-notes-172-470361.png';
 
 export const Navbar = () => {
     return (
-        <header style={{display: 'flex', padding: '3px 9px', gap: '3px', borderBottomWidth: '2px', borderBottomColor: 'Gray'}}>
-            <div style={{width: '3rem', height: '3rem'}}>
-                <img style={{width: '100%', height: '100%'}} src={logo} alt='logo'/>
+        <header className='flex px-5 py-2 gap-3 border-b-2 border-gray-100'>
+            <div className='w-12 h-12'>
+                <img className='w-full h-full' src={logo} alt='logo'/>
             </div>
-            <h1 style={{ color: '#3730a3', fontSize: '36px', fontWeight: 'bold'}}>Notes App</h1>
+            <h1 className='text-indigo-800 text-4xl font-bold'>NoteIt</h1>
         </header>
     )
 }

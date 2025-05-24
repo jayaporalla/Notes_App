@@ -1,4 +1,4 @@
-import logo from '../../assets/free-notes-172-470361.png';
+import logo from '../../assets/116920_clipboard_512x512.png';
 
 export const Navbar = () => {
     return (
